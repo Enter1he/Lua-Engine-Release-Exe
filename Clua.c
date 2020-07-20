@@ -4,7 +4,7 @@
 #include"include/lualib.h"
 #include"include/lauxlib.h"
 
-// void stackDump(lua_State *L)
+// void stackDump(lua_State *L) // A function for checking stack if you need to change exe's lua part
 // {
 // 	int i;
 // 	int top = lua_gettop(L);
@@ -33,7 +33,7 @@
 // 	printf("\n\n");
 //}
 
-int main()
+int main() //Basically emulates behaviour of main.lua from LuaEngine
 {
     lua_State* L = luaL_newstate();
     lua_Debug ar;
