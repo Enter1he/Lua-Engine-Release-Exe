@@ -1,0 +1,1 @@
+gcc Clua.c -o LuaEngineC.exe -LC:\Users\1367848\Desktop\lua\iup\LifeHack -mwindows -llua53 
